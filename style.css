@@ -1,0 +1,67 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 300px;
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-color: #341038;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andika";
+}
+
+#bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+#banner_content {
+  position: absolute;
+  top: 58px;
+  left: 500px;
+
+  background-color: rgba(234, 115, 180, 0.7);
+  block-size: 50px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 50%;
+}
+.footer {
+  position: absolute;
+  margin-top: 50px;
+  background-color: #580343;
+  min-height: 50px;
+  padding-top: 40px;
+  width: 100%;
+  bottom: 0px;
+
+  bottom: 0;
+}
+
+.container a {
+  color: rgb(0, 0, 0);
+}
+.container a:hover {
+  color: rgb(222, 109, 154);
+}
+#size {
+  max-height: 200px;
+}
